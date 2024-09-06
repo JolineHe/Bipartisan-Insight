@@ -1,6 +1,6 @@
 # Ignore all files in the data folder
 data/
-
+__pycache__/
 *.ipynb
 
 .DS_Store
