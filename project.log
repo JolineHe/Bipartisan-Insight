@@ -1,0 +1,174 @@
+2024-09-06 18:40:31,669 - INFO - Starting Bipartisan Insight service.
+2024-09-06 18:40:31,670 - INFO - Initialized democrat news crawler with directory: data/news/democrat
+2024-09-06 18:40:31,670 - INFO - Initialized republican news crawler with directory: data/news/republican
+2024-09-06 18:40:31,721 - INFO - AINewsAnalyzer initialized with model: gpt-4
+2024-09-06 18:40:31,721 - INFO - EmailNotifier initialized with SMTP server: smtp.126.com
+2024-09-06 18:40:31,721 - INFO - BipartisanInsight initialized successfully.
+2024-09-06 18:40:31,721 - INFO - Scheduled job will run at 18:42.
+2024-09-06 18:40:32,003 - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-09-06 18:40:32,059 - INFO - HTTP Request: GET http://127.0.0.1:7860/startup-events "HTTP/1.1 200 OK"
+2024-09-06 18:40:32,088 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-09-06 18:40:32,291 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-09-06 18:44:09,016 - INFO - Starting Democrat data acquisition job.
+2024-09-06 18:44:11,480 - INFO - Saved news to data/news/democrat/2024-09-06_MAGA_Malarkey:_The_Extremism_You_Missed_From_Republicans_This_Week.md
+2024-09-06 18:44:11,901 - INFO - Saved news to data/news/democrat/2024-09-06_Split_Screen:_Small_Businesses_Suffered_Under_Trump_But_Would_Thrive_Thanks_to_VP_Harris’_New_Small_Business_Agenda.md
+2024-09-06 18:44:11,998 - INFO - AINewsAnalyzer initialized with model: gpt-4
+2024-09-06 18:44:11,999 - INFO - Prompt loaded successfully from /prompt/openai_prompt.txt
+2024-09-06 18:44:11,999 - ERROR - Error processing https://democrats.org/news/maga-malarkey-the-extremism-you-missed-from-republicans-this-week-58/: [Errno 2] No such file or directory: 'https://democrats.org/news/maga-malarkey-the-extremism-you-missed-from-republicans-this-week-58/'
+2024-09-06 18:44:12,000 - ERROR - Error processing https://democrats.org/news/split-screen-small-businesses-suffered-under-trump-but-would-thrive-thanks-to-vp-harris-new-small-business-agenda/: [Errno 2] No such file or directory: 'https://democrats.org/news/split-screen-small-businesses-suffered-under-trump-but-would-thrive-thanks-to-vp-harris-new-small-business-agenda/'
+2024-09-06 18:44:32,481 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 18:44:32,489 - INFO - AI analysis completed successfully.
+2024-09-06 18:44:32,490 - INFO - Report generated and saved to data/reports/democrat/2024-09-06.md
+2024-09-06 18:44:32,491 - INFO - Report generated for Democrat: data/reports/democrat/2024-09-06.md
+2024-09-06 18:44:36,462 - INFO - 邮件发送成功！
+2024-09-06 18:44:36,756 - INFO - Email sent successfully for Democrat.
+2024-09-06 18:44:36,757 - INFO - Starting Republican data acquisition job.
+2024-09-06 18:44:37,286 - INFO - Saved news to data/news/republican/2024-09-06_RNC_Statement_on_Kamalanomics_Killing_the_American_Dream.md
+2024-09-06 18:44:37,339 - INFO - AINewsAnalyzer initialized with model: gpt-4
+2024-09-06 18:44:37,339 - INFO - Prompt loaded successfully from /prompt/openai_prompt.txt
+2024-09-06 18:44:37,339 - ERROR - Error processing https://gop.com/press-release/rnc-statement-on-kamalanomics-killing-the-american-dream: [Errno 2] No such file or directory: 'https://gop.com/press-release/rnc-statement-on-kamalanomics-killing-the-american-dream'
+2024-09-06 18:44:42,461 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 18:44:42,463 - INFO - AI analysis completed successfully.
+2024-09-06 18:44:42,465 - INFO - Report generated and saved to data/reports/republican/2024-09-06.md
+2024-09-06 18:44:42,466 - INFO - Report generated for Republican: data/reports/republican/2024-09-06.md
+2024-09-06 18:44:45,327 - INFO - 邮件发送成功！
+2024-09-06 18:44:45,637 - INFO - Email sent successfully for Republican.
+2024-09-06 18:48:59,270 - INFO - Starting Bipartisan Insight service.
+2024-09-06 18:48:59,271 - INFO - Initialized democrat news crawler with directory: data/news/democrat
+2024-09-06 18:48:59,271 - INFO - Initialized republican news crawler with directory: data/news/republican
+2024-09-06 18:48:59,340 - INFO - AINewsAnalyzer initialized with model: gpt-4
+2024-09-06 18:48:59,340 - INFO - EmailNotifier initialized with SMTP server: smtp.126.com
+2024-09-06 18:48:59,340 - INFO - BipartisanInsight initialized successfully.
+2024-09-06 18:48:59,341 - INFO - Scheduled job will run at 21:00.
+2024-09-06 18:48:59,341 - INFO - Starting Democrat data acquisition job.
+2024-09-06 18:49:00,219 - INFO - Saved news to data/news/democrat/2024-09-06_IN_THE_STATES:_Team_Harris-Walz,_Democrats_Mobilizing_Voters_and_Paving_the_Path_to_Victory_for_Democrats_Up_and_Down_the_Ballot.md
+2024-09-06 18:49:00,989 - INFO - Saved news to data/news/democrat/2024-09-06_Vance_Calls_School_Shootings_a_“Fact_of_Life”_As_Trump-Vance_Continue_to_Put_Gun_Lobby_Ahead_of_Children’s_Safety.md
+2024-09-06 18:49:01,817 - INFO - Saved news to data/news/democrat/2024-09-06_As_JD_Vance_Alienates_the_Voters_the_GOP_Needs_to_Win,_He’s_Rubbing_Elbows_With_Weirdos_and_Extremists.md
+2024-09-06 18:49:02,181 - INFO - Saved news to data/news/democrat/2024-09-06_NEW:_August_Marks_44th_Month_of_Consecutive_Job_Growth_Under_Biden-Harris_Administration_While_Trump-Vance_Agenda_Would_Cost_America_3.2_Million_Jobs.md
+2024-09-06 18:49:02,458 - INFO - Saved news to data/news/democrat/2024-09-06_JD_Vance_Should_Answer_For_Cozying_Up_to_Tucker_Carlson_After_He_Elevated_a_Holocaust_Denier.md
+2024-09-06 18:49:02,782 - INFO - Saved news to data/news/democrat/2024-09-06_MAGA_Malarkey:_The_Extremism_You_Missed_From_Republicans_This_Week.md
+2024-09-06 18:49:03,098 - INFO - Saved news to data/news/democrat/2024-09-06_Split_Screen:_Small_Businesses_Suffered_Under_Trump_But_Would_Thrive_Thanks_to_VP_Harris’_New_Small_Business_Agenda.md
+2024-09-06 18:49:03,152 - INFO - AINewsAnalyzer initialized with model: gpt-4
+2024-09-06 18:49:03,153 - INFO - Prompt loaded successfully from /prompt/openai_prompt.txt
+2024-09-06 18:49:03,153 - ERROR - Error processing https://democrats.org/news/in-the-states-team-harris-walz-democrats-mobilizing-voters-and-paving-the-path-to-victory-for-democrats-up-and-down-the-ballot/: [Errno 2] No such file or directory: 'https://democrats.org/news/in-the-states-team-harris-walz-democrats-mobilizing-voters-and-paving-the-path-to-victory-for-democrats-up-and-down-the-ballot/'
+2024-09-06 18:49:03,153 - ERROR - Error processing https://democrats.org/news/vance-calls-school-shootings-a-fact-of-life-as-trump-vance-continue-to-put-gun-lobby-ahead-of-childrens-safety/: [Errno 2] No such file or directory: 'https://democrats.org/news/vance-calls-school-shootings-a-fact-of-life-as-trump-vance-continue-to-put-gun-lobby-ahead-of-childrens-safety/'
+2024-09-06 18:49:03,153 - ERROR - Error processing https://democrats.org/news/as-jd-vance-alienates-the-voters-the-gop-needs-to-win-hes-rubbing-elbows-with-weirdos-and-extremists/: [Errno 2] No such file or directory: 'https://democrats.org/news/as-jd-vance-alienates-the-voters-the-gop-needs-to-win-hes-rubbing-elbows-with-weirdos-and-extremists/'
+2024-09-06 18:49:03,153 - ERROR - Error processing https://democrats.org/news/new-august-marks-44th-month-of-consecutive-job-growth-under-biden-harris-administration-while-trump-vance-agenda-would-cost-america-3-2-million-jobs/: [Errno 2] No such file or directory: 'https://democrats.org/news/new-august-marks-44th-month-of-consecutive-job-growth-under-biden-harris-administration-while-trump-vance-agenda-would-cost-america-3-2-million-jobs/'
+2024-09-06 18:49:03,153 - ERROR - Error processing https://democrats.org/news/jd-vance-should-answer-for-cozying-up-to-tucker-carlson-after-he-elevated-a-holocaust-denier/: [Errno 2] No such file or directory: 'https://democrats.org/news/jd-vance-should-answer-for-cozying-up-to-tucker-carlson-after-he-elevated-a-holocaust-denier/'
+2024-09-06 18:49:03,154 - ERROR - Error processing https://democrats.org/news/maga-malarkey-the-extremism-you-missed-from-republicans-this-week-58/: [Errno 2] No such file or directory: 'https://democrats.org/news/maga-malarkey-the-extremism-you-missed-from-republicans-this-week-58/'
+2024-09-06 18:49:03,154 - ERROR - Error processing https://democrats.org/news/split-screen-small-businesses-suffered-under-trump-but-would-thrive-thanks-to-vp-harris-new-small-business-agenda/: [Errno 2] No such file or directory: 'https://democrats.org/news/split-screen-small-businesses-suffered-under-trump-but-would-thrive-thanks-to-vp-harris-new-small-business-agenda/'
+2024-09-06 18:49:19,486 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 18:49:19,494 - INFO - AI analysis completed successfully.
+2024-09-06 18:49:19,497 - INFO - Report generated and saved to data/reports/democrat/2024-09-06.md
+2024-09-06 18:49:19,497 - INFO - Report generated for Democrat: data/reports/democrat/2024-09-06.md
+2024-09-06 18:49:23,376 - INFO - 邮件发送成功！
+2024-09-06 18:49:23,786 - INFO - Email sent successfully for Democrat.
+2024-09-06 18:49:23,787 - INFO - Starting Republican data acquisition job.
+2024-09-06 18:49:24,400 - INFO - Saved news to data/news/republican/2024-09-06_RNC_Statement_on_Kamalanomics_Killing_the_American_Dream.md
+2024-09-06 18:49:24,461 - INFO - AINewsAnalyzer initialized with model: gpt-4
+2024-09-06 18:49:24,461 - INFO - Prompt loaded successfully from /prompt/openai_prompt.txt
+2024-09-06 18:49:24,461 - ERROR - Error processing https://gop.com/press-release/rnc-statement-on-kamalanomics-killing-the-american-dream: [Errno 2] No such file or directory: 'https://gop.com/press-release/rnc-statement-on-kamalanomics-killing-the-american-dream'
+2024-09-06 18:49:27,224 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 18:49:27,225 - INFO - AI analysis completed successfully.
+2024-09-06 18:49:27,227 - INFO - Report generated and saved to data/reports/republican/2024-09-06.md
+2024-09-06 18:49:27,227 - INFO - Report generated for Republican: data/reports/republican/2024-09-06.md
+2024-09-06 18:49:30,135 - INFO - 邮件发送成功！
+2024-09-06 18:49:30,455 - INFO - Email sent successfully for Republican.
+2024-09-06 18:49:30,825 - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-09-06 18:49:30,927 - INFO - HTTP Request: GET http://127.0.0.1:7860/startup-events "HTTP/1.1 200 OK"
+2024-09-06 18:49:30,958 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-09-06 18:49:31,118 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-09-06 19:00:08,981 - INFO - Starting Bipartisan Insight service.
+2024-09-06 19:00:08,982 - INFO - Initialized democrat news crawler with directory: data/news/democrat
+2024-09-06 19:00:08,982 - INFO - Initialized republican news crawler with directory: data/news/republican
+2024-09-06 19:00:09,033 - INFO - AINewsAnalyzer initialized with model: gpt-4
+2024-09-06 19:00:09,033 - INFO - EmailNotifier initialized with SMTP server: smtp.126.com
+2024-09-06 19:00:09,091 - INFO - AINewsAnalyzer initialized with model: gpt-4
+2024-09-06 19:00:09,143 - INFO - AINewsAnalyzer initialized with model: gpt-4
+2024-09-06 19:00:09,143 - INFO - BipartisanInsight initialized successfully.
+2024-09-06 19:00:09,143 - INFO - Scheduled job will run at 21:00.
+2024-09-06 19:00:09,143 - INFO - Starting Democrat data acquisition job.
+2024-09-06 19:00:09,742 - INFO - Saved news to data/news/democrat/2024-09-06_IN_THE_STATES:_Team_Harris-Walz,_Democrats_Mobilizing_Voters_and_Paving_the_Path_to_Victory_for_Democrats_Up_and_Down_the_Ballot.md
+2024-09-06 19:00:09,944 - INFO - Saved news to data/news/democrat/2024-09-06_Vance_Calls_School_Shootings_a_“Fact_of_Life”_As_Trump-Vance_Continue_to_Put_Gun_Lobby_Ahead_of_Children’s_Safety.md
+2024-09-06 19:00:10,167 - INFO - Saved news to data/news/democrat/2024-09-06_As_JD_Vance_Alienates_the_Voters_the_GOP_Needs_to_Win,_He’s_Rubbing_Elbows_With_Weirdos_and_Extremists.md
+2024-09-06 19:00:10,385 - INFO - Saved news to data/news/democrat/2024-09-06_NEW:_August_Marks_44th_Month_of_Consecutive_Job_Growth_Under_Biden-Harris_Administration_While_Trump-Vance_Agenda_Would_Cost_America_3.2_Million_Jobs.md
+2024-09-06 19:00:10,846 - INFO - Saved news to data/news/democrat/2024-09-06_JD_Vance_Should_Answer_For_Cozying_Up_to_Tucker_Carlson_After_He_Elevated_a_Holocaust_Denier.md
+2024-09-06 19:00:11,051 - INFO - Saved news to data/news/democrat/2024-09-06_MAGA_Malarkey:_The_Extremism_You_Missed_From_Republicans_This_Week.md
+2024-09-06 19:00:11,275 - INFO - Saved news to data/news/democrat/2024-09-06_Split_Screen:_Small_Businesses_Suffered_Under_Trump_But_Would_Thrive_Thanks_to_VP_Harris’_New_Small_Business_Agenda.md
+2024-09-06 19:00:11,277 - INFO - Prompt loaded successfully from /prompt/openai_prompt.txt
+2024-09-06 19:00:11,277 - ERROR - Error processing https://democrats.org/news/in-the-states-team-harris-walz-democrats-mobilizing-voters-and-paving-the-path-to-victory-for-democrats-up-and-down-the-ballot/: [Errno 2] No such file or directory: 'https://democrats.org/news/in-the-states-team-harris-walz-democrats-mobilizing-voters-and-paving-the-path-to-victory-for-democrats-up-and-down-the-ballot/'
+2024-09-06 19:00:11,278 - ERROR - Error processing https://democrats.org/news/vance-calls-school-shootings-a-fact-of-life-as-trump-vance-continue-to-put-gun-lobby-ahead-of-childrens-safety/: [Errno 2] No such file or directory: 'https://democrats.org/news/vance-calls-school-shootings-a-fact-of-life-as-trump-vance-continue-to-put-gun-lobby-ahead-of-childrens-safety/'
+2024-09-06 19:00:11,278 - ERROR - Error processing https://democrats.org/news/as-jd-vance-alienates-the-voters-the-gop-needs-to-win-hes-rubbing-elbows-with-weirdos-and-extremists/: [Errno 2] No such file or directory: 'https://democrats.org/news/as-jd-vance-alienates-the-voters-the-gop-needs-to-win-hes-rubbing-elbows-with-weirdos-and-extremists/'
+2024-09-06 19:00:11,278 - ERROR - Error processing https://democrats.org/news/new-august-marks-44th-month-of-consecutive-job-growth-under-biden-harris-administration-while-trump-vance-agenda-would-cost-america-3-2-million-jobs/: [Errno 2] No such file or directory: 'https://democrats.org/news/new-august-marks-44th-month-of-consecutive-job-growth-under-biden-harris-administration-while-trump-vance-agenda-would-cost-america-3-2-million-jobs/'
+2024-09-06 19:00:11,278 - ERROR - Error processing https://democrats.org/news/jd-vance-should-answer-for-cozying-up-to-tucker-carlson-after-he-elevated-a-holocaust-denier/: [Errno 2] No such file or directory: 'https://democrats.org/news/jd-vance-should-answer-for-cozying-up-to-tucker-carlson-after-he-elevated-a-holocaust-denier/'
+2024-09-06 19:00:11,278 - ERROR - Error processing https://democrats.org/news/maga-malarkey-the-extremism-you-missed-from-republicans-this-week-58/: [Errno 2] No such file or directory: 'https://democrats.org/news/maga-malarkey-the-extremism-you-missed-from-republicans-this-week-58/'
+2024-09-06 19:00:11,278 - ERROR - Error processing https://democrats.org/news/split-screen-small-businesses-suffered-under-trump-but-would-thrive-thanks-to-vp-harris-new-small-business-agenda/: [Errno 2] No such file or directory: 'https://democrats.org/news/split-screen-small-businesses-suffered-under-trump-but-would-thrive-thanks-to-vp-harris-new-small-business-agenda/'
+2024-09-06 19:00:17,617 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 19:00:17,626 - INFO - AI analysis completed successfully.
+2024-09-06 19:00:17,628 - INFO - Report generated and saved to data/reports/democrat/2024-09-06.md
+2024-09-06 19:00:17,628 - INFO - Report generated for Democrat: data/reports/democrat/2024-09-06.md
+2024-09-06 19:00:21,917 - INFO - 邮件发送成功！
+2024-09-06 19:00:22,225 - INFO - Email sent successfully for Democrat.
+2024-09-06 19:00:22,226 - INFO - Starting Republican data acquisition job.
+2024-09-06 19:00:22,741 - INFO - Saved news to data/news/republican/2024-09-06_RNC_Statement_on_Kamalanomics_Killing_the_American_Dream.md
+2024-09-06 19:00:22,742 - INFO - Prompt loaded successfully from /prompt/openai_prompt.txt
+2024-09-06 19:00:22,742 - ERROR - Error processing https://gop.com/press-release/rnc-statement-on-kamalanomics-killing-the-american-dream: [Errno 2] No such file or directory: 'https://gop.com/press-release/rnc-statement-on-kamalanomics-killing-the-american-dream'
+2024-09-06 19:00:26,124 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 19:00:26,125 - INFO - AI analysis completed successfully.
+2024-09-06 19:00:26,126 - INFO - Report generated and saved to data/reports/republican/2024-09-06.md
+2024-09-06 19:00:26,126 - INFO - Report generated for Republican: data/reports/republican/2024-09-06.md
+2024-09-06 19:00:28,982 - INFO - 邮件发送成功！
+2024-09-06 19:00:29,249 - INFO - Email sent successfully for Republican.
+2024-09-06 19:00:29,605 - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-09-06 19:00:29,710 - INFO - HTTP Request: GET http://127.0.0.1:7860/startup-events "HTTP/1.1 200 OK"
+2024-09-06 19:00:29,752 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-09-06 19:00:29,844 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-09-06 19:18:57,681 - INFO - Starting Bipartisan Insight service.
+2024-09-06 19:18:57,681 - INFO - Initialized democrat news crawler with directory: data/news/democrat
+2024-09-06 19:18:57,682 - INFO - Initialized republican news crawler with directory: data/news/republican
+2024-09-06 19:18:57,738 - INFO - AINewsAnalyzer initialized with model: gpt-4
+2024-09-06 19:18:57,738 - INFO - EmailNotifier initialized with SMTP server: smtp.126.com
+2024-09-06 19:18:57,791 - INFO - AINewsAnalyzer initialized with model: gpt-4
+2024-09-06 19:18:57,842 - INFO - AINewsAnalyzer initialized with model: gpt-4
+2024-09-06 19:18:57,842 - INFO - BipartisanInsight initialized successfully.
+2024-09-06 19:18:57,842 - INFO - Scheduled job will run at 21:00.
+2024-09-06 19:18:57,842 - INFO - Starting Democrat data acquisition job.
+2024-09-06 19:18:58,478 - INFO - Saved news to data/news/democrat/2024-09-06_IN_THE_STATES:_Team_Harris-Walz,_Democrats_Mobilizing_Voters_and_Paving_the_Path_to_Victory_for_Democrats_Up_and_Down_the_Ballot.md
+2024-09-06 19:18:58,703 - INFO - Saved news to data/news/democrat/2024-09-06_Vance_Calls_School_Shootings_a_“Fact_of_Life”_As_Trump-Vance_Continue_to_Put_Gun_Lobby_Ahead_of_Children’s_Safety.md
+2024-09-06 19:18:58,959 - INFO - Saved news to data/news/democrat/2024-09-06_As_JD_Vance_Alienates_the_Voters_the_GOP_Needs_to_Win,_He’s_Rubbing_Elbows_With_Weirdos_and_Extremists.md
+2024-09-06 19:18:59,175 - INFO - Saved news to data/news/democrat/2024-09-06_NEW:_August_Marks_44th_Month_of_Consecutive_Job_Growth_Under_Biden-Harris_Administration_While_Trump-Vance_Agenda_Would_Cost_America_3.2_Million_Jobs.md
+2024-09-06 19:18:59,436 - INFO - Saved news to data/news/democrat/2024-09-06_JD_Vance_Should_Answer_For_Cozying_Up_to_Tucker_Carlson_After_He_Elevated_a_Holocaust_Denier.md
+2024-09-06 19:18:59,655 - INFO - Saved news to data/news/democrat/2024-09-06_MAGA_Malarkey:_The_Extremism_You_Missed_From_Republicans_This_Week.md
+2024-09-06 19:18:59,898 - INFO - Saved news to data/news/democrat/2024-09-06_Split_Screen:_Small_Businesses_Suffered_Under_Trump_But_Would_Thrive_Thanks_to_VP_Harris’_New_Small_Business_Agenda.md
+2024-09-06 19:18:59,900 - INFO - Prompt loaded successfully from /prompt/openai_prompt.txt
+2024-09-06 19:18:59,901 - INFO - Reading content from data/news/democrat/2024-09-06_IN_THE_STATES:_Team_Harris-Walz,_Democrats_Mobilizing_Voters_and_Paving_the_Path_to_Victory_for_Democrats_Up_and_Down_the_Ballot.md
+2024-09-06 19:18:59,901 - INFO - Reading content from data/news/democrat/2024-09-06_Vance_Calls_School_Shootings_a_“Fact_of_Life”_As_Trump-Vance_Continue_to_Put_Gun_Lobby_Ahead_of_Children’s_Safety.md
+2024-09-06 19:18:59,901 - INFO - Reading content from data/news/democrat/2024-09-06_As_JD_Vance_Alienates_the_Voters_the_GOP_Needs_to_Win,_He’s_Rubbing_Elbows_With_Weirdos_and_Extremists.md
+2024-09-06 19:18:59,901 - INFO - Reading content from data/news/democrat/2024-09-06_NEW:_August_Marks_44th_Month_of_Consecutive_Job_Growth_Under_Biden-Harris_Administration_While_Trump-Vance_Agenda_Would_Cost_America_3.2_Million_Jobs.md
+2024-09-06 19:18:59,901 - INFO - Reading content from data/news/democrat/2024-09-06_JD_Vance_Should_Answer_For_Cozying_Up_to_Tucker_Carlson_After_He_Elevated_a_Holocaust_Denier.md
+2024-09-06 19:18:59,901 - INFO - Reading content from data/news/democrat/2024-09-06_MAGA_Malarkey:_The_Extremism_You_Missed_From_Republicans_This_Week.md
+2024-09-06 19:18:59,902 - INFO - Reading content from data/news/democrat/2024-09-06_Split_Screen:_Small_Businesses_Suffered_Under_Trump_But_Would_Thrive_Thanks_to_VP_Harris’_New_Small_Business_Agenda.md
+2024-09-06 19:19:00,245 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-06 19:19:00,246 - INFO - Retrying request to /chat/completions in 0.785879 seconds
+2024-09-06 19:19:01,271 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-06 19:19:01,272 - INFO - Retrying request to /chat/completions in 1.763606 seconds
+2024-09-06 19:19:03,273 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-06 19:19:03,281 - ERROR - Error in AI analysis: Error code: 429 - {'error': {'message': 'Request too large for gpt-4 in organization org-mQusmLRsA5FdGsqF49X3tjBo on tokens per min (TPM): Limit 10000, Requested 14876. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2024-09-06 19:19:03,283 - INFO - Report generated and saved to data/reports/democrat/2024-09-06.md
+2024-09-06 19:19:03,283 - INFO - Report generated for Democrat: data/reports/democrat/2024-09-06.md
+2024-09-06 19:19:07,422 - INFO - 邮件发送成功！
+2024-09-06 19:19:07,709 - INFO - Email sent successfully for Democrat.
+2024-09-06 19:19:07,711 - INFO - Starting Republican data acquisition job.
+2024-09-06 19:19:08,300 - INFO - Saved news to data/news/republican/2024-09-06_RNC_Statement_on_Kamalanomics_Killing_the_American_Dream.md
+2024-09-06 19:19:08,301 - INFO - Prompt loaded successfully from /prompt/openai_prompt.txt
+2024-09-06 19:19:08,301 - INFO - Reading content from data/news/republican/2024-09-06_RNC_Statement_on_Kamalanomics_Killing_the_American_Dream.md
+2024-09-06 19:19:47,115 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 19:19:47,122 - INFO - AI analysis completed successfully.
+2024-09-06 19:19:47,123 - INFO - Report generated and saved to data/reports/republican/2024-09-06.md
+2024-09-06 19:19:47,123 - INFO - Report generated for Republican: data/reports/republican/2024-09-06.md
+2024-09-06 19:19:49,982 - INFO - 邮件发送成功！
+2024-09-06 19:19:50,289 - INFO - Email sent successfully for Republican.
+2024-09-06 19:19:50,706 - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-09-06 19:19:50,836 - INFO - HTTP Request: GET http://127.0.0.1:7860/startup-events "HTTP/1.1 200 OK"
+2024-09-06 19:19:50,878 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-09-06 19:19:50,930 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
