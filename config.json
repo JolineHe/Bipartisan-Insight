@@ -3,5 +3,6 @@
     "urls": {
         "democrat": "https://democrats.org/news/page/{}/",
         "republican": "https://gop.com/press-releases/?page={}"
-    }
+    },
+    "openai_model": "gpt-3.5-turbo"
 }
