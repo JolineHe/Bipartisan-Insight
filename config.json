@@ -1,0 +1,7 @@
+{
+    "schedule_time": "21:00",
+    "urls": {
+        "democrat": "https://democrats.org/news/page/{}/",
+        "republican": "https://gop.com/press-releases/?page={}"
+    }
+}
