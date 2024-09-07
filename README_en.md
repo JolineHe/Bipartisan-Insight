@@ -1,6 +1,3 @@
-以下是项目的 `README.md` 文件模板，详细描述了项目的功能、安装步骤和使用指南。
-
-```markdown
 # Bipartisan Insight: AI-Powered Political News Analysis
 
 ## Overview
