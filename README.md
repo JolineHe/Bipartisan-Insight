@@ -13,7 +13,7 @@
 ## 安装步骤
 
 ### 前提条件：
-- Python 3.8+
+- Python 3.12.4
 - OpenAI API 密钥（用于 GPT-4/GPT-3.5 访问）
 - SMTP 邮箱服务配置（用于发送邮件通知）
 - Docker（可选，用于容器化部署）
@@ -74,6 +74,8 @@ python bipartisan_insight.py
 ```
 http://localhost:7860
 ```
+![gradio_ui_1.0.1](image/gradio_ui_1.0.0.jpg)
+
 
 ### 3. 自动新闻抓取与报告生成：
 系统会根据配置的定时任务，自动抓取新闻、生成报告并发送邮件通知。

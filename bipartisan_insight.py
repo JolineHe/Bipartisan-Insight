@@ -71,11 +71,11 @@ if __name__ == "__main__":
 
     # 立即执行定时任务
     #bipartisan_insight.job("democrat")
-    bipartisan_insight.job("republican")
+    #bipartisan_insight.job("republican")
 
     # 每天执行一次定时任务
     #schedule.every().day.at(schedule_time).do(bipartisan_insight.job, "democrat")
-    schedule.every().day.at(schedule_time).do(bipartisan_insight.job, "republican")
+    #schedule.every().day.at(schedule_time).do(bipartisan_insight.job, "republican")
 
     # 启动报告浏览 UI
     report_viewer_ui = ReportViewerUI(bipartisan_insight)
