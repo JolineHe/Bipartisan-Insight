@@ -1,8 +1,8 @@
-requests
-beautifulsoup4
-openai
-schedule
-gradio
-newspaper3k
-lxml_html_clean
-markdown2
+requests==2.32.3
+beautifulsoup4==4.12.3
+openai==1.43.1
+schedule==1.2.2
+gradio==4.43.0
+newspaper3k==0.2.8
+lxml_html_clean==0.2.2
+markdown2==2.5.0
